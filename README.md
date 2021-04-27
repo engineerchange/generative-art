@@ -1,5 +1,7 @@
 # generative-art
 
+> This is a quick deck on generative art and non-fungible tokens (NFTs). This is from a mild amount of research on both topics.
+
 ## Install packages before running first time
 ```
 install.packages("xaringan")
