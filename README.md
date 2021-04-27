@@ -13,6 +13,7 @@ xaringan::inf_mr()
 
 ## To build as PDF
 ```
-remotes::install_github("jhelvy/xaringanBuilder")
-xaringanBuilder::build_pdf("slides.Rmd")
+xaringan::decktape("slides.Rmd","generative-art.pdf")
 ```
+
+Note: there is an issue with the rarible slide. Have to delete that in order for pdf to generate.
