@@ -19,6 +19,10 @@ xaringan::inf_mr()
 ```
 pagedown::chrome_print("slides.Rmd","generative-art.pdf")
 ```
+Use ghostscript to shrink for shareability
+```
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=generative-art_out.pdf generative-art.pdf
+```
 
 Note: there is an issue with the rarible slide; could not get to work with pagedown::chrome_print() or xaringan:decktape(). Have to delete that slide in order for the pdf to generate.
 
