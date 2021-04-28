@@ -26,7 +26,7 @@ gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -
 
 Note: there is an issue with the rarible slide; could not get to work with pagedown::chrome_print() or xaringan:decktape(). Have to delete that slide in order for the pdf to generate.
 
-## Further info, check out
+## Further info
 - Some of the R visuals: [mathart](https://github.com/marcusvolz/mathart)
 - Presentation layout and design: [xaringan](https://github.com/yihui/xaringan)
 - [genuary2021](https://genuary2021.github.io/)
