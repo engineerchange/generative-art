@@ -61,9 +61,6 @@ ggplot() +
 
 Example: k-d tree using R package *mathart*
 
-
---
-
 ---
 class: inverse, center
 
@@ -84,11 +81,9 @@ class: inverse
 - Algorithmic art refers to computer-generated art.
 
 --
-
 - Algorithmic art is generative art, but generative art does not have to be algorithmic art.
 
 --
-
 - Algorithmic artists are called **algorists**.
 
 --
@@ -131,7 +126,8 @@ Source: [evilmadscientist.com/](https://evilmadscientist.com/)
 ---
 class:inverse, center, middle
 
-# Other generative art: biological
+# Other generative art:
+# Biological
 
 ---
 class:inverse
@@ -194,7 +190,7 @@ background-position: 90% 8%
 - **Alexander Fleming** had discovered the antibiotic properties of what would become known as ***penicillin***.
 
 --
-.center[![:scale 35%](https://cdn.mos.cms.futurecdn.net/SEZcXhUmMQeUkELKbTxvBQ.jpg)]
+.center[![:scale 45%](https://cdn.mos.cms.futurecdn.net/SEZcXhUmMQeUkELKbTxvBQ.jpg)]
 
 ---
 class: inverse, center, middle
@@ -268,8 +264,9 @@ class: inverse, center
 class: inverse, center
 
 # @accidental_aRt
+.small[
 This is a Python one.
-
+]
 
 <blockquote class="twitter-tweet" data-lang="en" width="450" align="center"><a href="https://twitter.com/TolkiCasts/status/1321250471466553346"></blockquote>
 
@@ -312,7 +309,7 @@ class: inverse
 - A good analogy is a baseball or Pokemon card. If you trade away the 1st print of a card, you no longer have that unique item.
 
 --
-- NFTs is a token. It is a unit of data stored on a digital ledger.
+- An NFT is a token. It is a unit of data stored on a digital ledger.
 
 --
 - The ledger is a blockchain and this ledger certifies that a digital file is unique.
@@ -322,15 +319,22 @@ class: inverse
 
 # Why is it bad?
 
-.small[
 - Digital art is... digital. There's no stopping someone from copying and reproducing your art.
-- Not good for the environment. 
-- NYC consumes 143.2 TWh per year.
-- Estimated consumption of ETH yesterday (4/26/21): 39.5 TWh per year
-- Estimated consumption of Bitcoin yesterday (4/26/21): 106.4 TWh per year
-]
 
-.center[![:scale 90%](assets/eth.png)]
+--
+- Not good for the environment. 
+
+--
+- NYC consumes 143.2 TWh per year.
+
+--
+- Estimated consumption of ETH yesterday (4/26/21): 39.5 TWh per year
+
+--
+- Estimated consumption of Bitcoin yesterday (4/26/21): 106.4 TWh per year
+
+--
+.center[![:scale 80%](assets/eth.png)]
 
 .small[
 Source: [https://digiconomist.net/](https://digiconomist.net/)
@@ -341,14 +345,18 @@ class: inverse
 
 # Why is it good?
 
+--
 New gateway for artists:
 - Artists can get commission every time their work is re-sold.
+
+--
 - Musical artists have already jumped on board:
   - Eminem (over the weekend released art in his 'Shadycon').
       - One item is on sale for $100k right now.
   - Kings of Leon released their latest album as a NFT.
       - They made ~$2M from selling ~6,500 NFTs certifying a physical vinyl and digital download.
 
+--
 **It is about exclusivity and digital memorabilia.**
       
 .center[![:scale 30%](https://www.yellowheart.io/nft_assets/NFTYourselfToken.gif)]
@@ -360,28 +368,18 @@ class: inverse
 # A fool and their money ...
 
 .center[![:scale 50%](assets/tweet.png)]
---
 
 ---
 
 class:inverse
 
 <iframe src="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/87674843704576988091990300001167802653401210574999032394885339328000313786369" width="100%" height="100%" frameBorder="0"></iframe>
---
 
 ---
 
 class:inverse
 
 <iframe src="https://opensea.io/collection/generative-artistry" width="100%" height="100%" frameBorder="0"></iframe>
---
-
----
-
-class:inverse
-
-<iframe src="https://rarible.com/datcsv?tab=created" width="100%" height="100%" frameBorder="0"></iframe>
---
 
 ---
 
@@ -392,3 +390,5 @@ class: inverse, center, middle
 Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
 
 Also, [**mathart**](https://github.com/marcusvolz/mathart)
+
+Code: [**GitHub**](https://github.com/engineerchange/generative-art)
